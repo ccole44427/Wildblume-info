@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Wildblume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        #showcase {
+            min-height: 400px;
+            background: url('https://source.unsplash.com/featured/?mountains') no-repeat 0 -400px;
+            text-align: center;
+            color: #fff;
+        }
+        #showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        .content {
+            padding: 20px;
+            background: #fff;
+            margin-bottom: 10px;
+        }
+        .content h2 {
+            color: #333;
+        }
+        .content img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            padding: 20px;
+            text-align: center;
+            background: #333;
+            color: #fff;
+            margin-top: 20px;
+        }
+        @media (max-width: 768px) {
+            header nav {
+                float: none;
+                text-align: center;
+            }
+            header nav ul {
+                padding: 0;
+                list-style: none;
+            }
+            header nav ul li {
+                float: none;
+                display: block;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Welcome to Wildblume</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#dining">Dining</a></li>
+                    <li><a href="#wineries">Wineries</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#attractions">Attractions</a></li>
+                    <li><a href="#rules">House Rules</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="showcase">
+        <div class="container">
+            <h1>Relax and Enjoy</h1>
+            <p>Your luxurious mountain retreat in Helen, Georgia</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <section id="welcome" class="content">
+            <h2>Greetings!</h2>
+            <p>Welcome to your home away from home in beautiful Helen, Georgia! We are delighted that you have chosen to stay at our luxury mountain retreat and hope you have a relaxing and memorable visit.</p>
+        </section>
+
+        <section id="dining" class="content">
+            <h2>Local Dining</h2>
+            <p>Helen offers a variety of dining options:</p>
+            <ul>
+                <li><a href="http://www.bodenseerestaurant.com/">Bodensee Restaurant</a></li>
+                <li><a href="http://www.Cowboysangels.net">Cowboys & Angels</a></li>
+                <li><a href="http://www.mullysnacoocheegrill.com/">Mully’s Nacoochee Grill</a></li>
+                <li><a href="http://www.hofers.com/">Hofer’s of Helen</a></li>
+                <li><a href="http://www.bettyscountrystore.com/">Betty’s Country Store</a></li>
+                <li><a href="https://www.spice55.net/">Spice 55</a></li>
+            </ul>
+            <img src="https://source.unsplash.com/featured/?restaurant" alt="Dining in Helen">
+        </section>
+
+        <section id="wineries" class="content">
+            <h2>Local Wineries</h2>
+            <ul>
+                <li><a href="http://www.habershamwinery.com/">Habersham Winery</a></li>
+                <li><a href="http://www.yonahmountainvineyards.com/">Yonah Mountain Vineyards</a></li>
+                <li><a href="http://www.cottagevineyardwinery.com/">The Cottage Vineyard & Winery</a></li>
+                <li><a href="http://www.serenitycellars.com/">Serenity Cellars</a></li>
+                <li><a href="http://www.cenitavineyards.com/">CeNita Vineyards and Winery</a></li>
+            </ul>
+            <img src="https://source.unsplash.com/featured/?winery" alt="Wineries near Helen">
+        </section>
+
+        <section id="events" class="content">
+            <h2>Seasonal Events in Helen</h2>
+            <p>Experience the charm of Helen throughout the year:</p>
+            <ul>
+                <li>Spring: Helen Trout Tournament, Helen to the Atlantic Hot Air Balloon Race</li>
+                <li>Summer: Independence Day Celebration, Georgia Mountain Fair</li>
+                <li>Fall: Oktoberfest, Georgia Apple Festival</li>
+                <li>Winter: Christmas season, Helen's Annual Christkindlmarkt</li>
+                <li>Car Shows: Helen's Oktoberfest Car Show</li>
+            </ul>
+            <img src="https://source.unsplash.com/featured/?festival" alt="Seasonal Events in Helen">
+        </section>
+
+        <section id="attractions" class="content">
+            <h2>Local Attractions and Activities</h2>
+            <ul>
+                <li>Horseback Riding: <a href="http://www.sunburststables.com/">Sunburst Stables</a></li>
+                <li>Golfing: <a href="https://valhallaresorthotel.com/best-golf-courses-in-north-georgia/">Valhalla Resort & Golf Club</a></li>
+            </ul>
+            <img src="https://source.unsplash.com/featured/?horseback,riding" alt="Horseback Riding">
+            <img src="https://source.unsplash.com/featured/?golf,course" alt="Golfing">
+        </section>
+
+        <section id="rules" class="content">
+            <h2>House Rules and Departure Checklist</h2>
+            <p>Please observe the following:</p>
+            <ul>
+                <li>No Pets</li>
+                <li>No Smoking</li>
+                <li>Occupancy limits</li>
+                <li>Quiet hours from 10 PM to 8 AM</li>
+                <li>Maintain cleanliness and leave the home tidy</li>
+            </ul>
+            <h3>Departure Checklist:</h3>
+            <ul>
+                <li>Dispose of trash in designated bins</li>
+                <li>Load and start the dishwasher</li>
+                <li>Strip beds and leave linens in the laundry room</li>
+                <li>Check rooms for personal belongings</li>
+                <li>Ensure windows and doors are closed and locked</li>
+                <li>Turn off all lights</li>
+                <li>Leave keys in the designated location</li>
+                <li>Notify us upon departure</li>
+            </ul>
+            <p>Important Information:</p>
+            <ul>
+                <li>Check-in: 4:00 PM</li>
+                <li>Check-out: 11:00 AM</li>
+                <li>Payment and Damage Deposit: Full payment due before check-in; damage deposit may be required</li>
+                <li>Cancellation Policy: Refer to our policy for details</li>
+            </ul>
+            <img src="https://source.unsplash.com/featured/?house,rules" alt="House Rules">
+        </section>
+    </div>
+
+    <footer>
+        <p>We're here to help: <strong>Carmen and Colin Morris</strong> | Contact us at any time.</p>
+    </footer>
+</body>
+</html>
